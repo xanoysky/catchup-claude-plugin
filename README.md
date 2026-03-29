@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.svg" width="120" height="120" alt="Catchup icon" />
+<img src="icon.svg" width="300" height="300" alt="Catchup icon" />
 
 # Catchup
 
