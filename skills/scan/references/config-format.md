@@ -2,7 +2,7 @@
 
 ## Config File
 
-`~/.claude/catchup.json` — a simple array of sources.
+`~/.catchup/catchup.json` — a simple array of sources.
 
 If this file doesn't exist, defaults from [default-sources.json](default-sources.json) are used.
 
@@ -39,7 +39,7 @@ If this file doesn't exist, defaults from [default-sources.json](default-sources
 - Append the new source (with optional `repo` field)
 - If a source with the same name exists, update its URL and repo
 - If the URL matches `github.com/{owner}/{repo}/releases`, auto-detect `repo`
-- Write to `~/.claude/catchup.json`
+- Write to `~/.catchup/catchup.json`
 
 ### `--remove name` — Remove a source
 ```
@@ -47,7 +47,7 @@ If this file doesn't exist, defaults from [default-sources.json](default-sources
 ```
 - Read current config
 - Remove the source matching the name (case-insensitive)
-- Write to `~/.claude/catchup.json`
+- Write to `~/.catchup/catchup.json`
 
 ### `--list` — Show current sources
 ```
@@ -70,5 +70,5 @@ Catchup — Sources
 ```
 /catchup --reset
 ```
-- Delete `~/.claude/catchup.json` (or overwrite with defaults from [default-sources.json](default-sources.json))
+- Delete `~/.catchup/catchup.json` (or overwrite with defaults from [default-sources.json](default-sources.json))
 - Confirm what was restored
