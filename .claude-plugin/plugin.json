@@ -1,0 +1,8 @@
+{
+  "name": "catchup",
+  "description": "Fetches recent changelogs from any tools or projects and presents a scannable digest. Defaults to Claude Code, GitHub Copilot, OpenAI Codex, and OpenClaw. Add or remove any source you want.",
+  "author": {
+    "name": "xanoysky"
+  },
+  "version": "1.0.0"
+}
