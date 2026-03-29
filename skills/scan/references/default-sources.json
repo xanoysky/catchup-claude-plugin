@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Claude Code",
+    "repo": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code/releases",
+    "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes. Focus on new features and important fixes."
+  },
+  {
+    "name": "GitHub Copilot",
+    "repo": "github/copilot-cli",
+    "url": "https://github.com/github/copilot-cli/releases",
+    "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes."
+  },
+  {
+    "name": "OpenAI Codex",
+    "repo": "openai/codex",
+    "url": "https://github.com/openai/codex/releases",
+    "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes."
+  },
+  {
+    "name": "OpenClaw",
+    "repo": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw/releases",
+    "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes."
+  }
+]
