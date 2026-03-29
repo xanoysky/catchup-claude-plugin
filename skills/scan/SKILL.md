@@ -26,12 +26,12 @@ Fetches and summarizes recent changelogs into a single scannable digest.
 
 If `$ARGUMENTS` starts with `--`:
 - Read [config-format.md](references/config-format.md) for the workflow of each command
-- Write changes to `~/.claude/catchup.json`
+- Write changes to `~/.catchup/catchup.json`
 - **Stop** — do not fetch changelogs
 
 ### 2. Load Sources
 
-1. Read `~/.claude/catchup.json`
+1. Read `~/.catchup/catchup.json`
 2. If missing or invalid, read [default-sources.json](references/default-sources.json)
 
 ### 3. Apply Filters
@@ -69,4 +69,4 @@ Format the results using [output-template.md](references/output-template.md).
 - **NEVER fabricate changelog entries.** Only report what WebFetch/WebSearch actually returns.
 - Some sites return 403 — the WebSearch fallback usually finds the info anyway.
 - Trim to 3 most recent entries per source if content is excessive.
-- `~/.claude/` resolves correctly on macOS, Linux, and Windows.
+- `~/.catchup/` resolves correctly on macOS, Linux, and Windows.
