@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="icon.svg" width="120" height="120" alt="Catchup icon" />
+
 # Catchup
 
 The AI tooling ecosystem moves fast — new releases, features, and tools drop daily. Catchup gives you a single command to get a consolidated briefing of what changed across the tools you care about.
