@@ -1,0 +1,16 @@
+{
+  "name": "catchup-claude-plugin",
+  "metadata": {
+    "description": "Fetches recent changelogs from any tools or projects and presents a scannable digest"
+  },
+  "owner": {
+    "name": "xanoysky"
+  },
+  "plugins": [
+    {
+      "name": "catchup",
+      "source": "./",
+      "description": "Fetches recent changelogs from any tools or projects and presents a scannable digest"
+    }
+  ]
+}
