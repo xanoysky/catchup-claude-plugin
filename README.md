@@ -49,7 +49,7 @@ apm install xanoysky/catchup-claude-plugin
 | `/catchup --reset` | Restore defaults |
 
 > [!NOTE]
-> Defaults: Claude Code, GitHub Copilot, OpenAI Codex, OpenClaw. Add or remove anything you want.
+> Defaults: Claude Code, GitHub Copilot, OpenAI Codex, Gemini CLI, Cursor, OpenClaw. Add or remove anything you want.
 
 ## Supported Platforms
 
