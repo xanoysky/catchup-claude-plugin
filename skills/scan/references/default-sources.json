@@ -28,5 +28,10 @@
     "repo": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw/releases",
     "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes."
+  },
+  {
+    "name": "Cursor",
+    "url": "https://www.cursor.com/changelog",
+    "prompt_hint": "Extract the most recent 3 changelog entries with dates and key changes."
   }
 ]
