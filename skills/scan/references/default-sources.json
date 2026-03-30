@@ -22,7 +22,7 @@
     "repo": "google-gemini/gemini-cli",
     "url": "https://github.com/google-gemini/gemini-cli/releases",
     "prompt_hint": "Extract the most recent 3 releases with version numbers, dates, and key changes."
-  }
+  },
   {
     "name": "OpenClaw",
     "repo": "openclaw/openclaw",
