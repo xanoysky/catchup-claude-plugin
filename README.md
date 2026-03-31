@@ -12,12 +12,12 @@ The AI tooling ecosystem moves fast — new releases, features, and tools drop d
 
 **Claude Code:**
 ```bash
-claude plugin add https://github.com/xanoysky/catchup-claude-plugin.git
+claude plugin install https://github.com/xanoysky/catchup-claude-plugin.git
 ```
 
 **GitHub Copilot CLI:**
 ```bash
-copilot plugin add https://github.com/xanoysky/catchup-claude-plugin.git
+copilot plugin install https://github.com/xanoysky/catchup-claude-plugin.git
 ```
 
 **Or inside a session:**
