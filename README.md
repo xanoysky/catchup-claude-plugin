@@ -22,7 +22,7 @@ copilot plugin install https://github.com/xanoysky/catchup-claude-plugin.git
 
 **Or inside a session:**
 ```
-/plugin add https://github.com/xanoysky/catchup-claude-plugin.git
+/plugin install https://github.com/xanoysky/catchup-claude-plugin.git
 ```
 
 **APM (Agent Package Manager):**
